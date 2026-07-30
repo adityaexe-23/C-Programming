@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int age;
+    printf("Enter you age: ");
+    scanf("%d", &age);
+    age >=18 ? printf("Adult") : printf("Not Adult");
+    return 0;
+}
