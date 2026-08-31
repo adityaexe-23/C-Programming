@@ -1,5 +1,4 @@
-#write a c-program to input and display a 2D array of 2 rows snd 3 columns.
-include <stdio.h>
+#include<stdio.h>
 int main() {
     int arr[2][3];
     int i, j;
@@ -8,7 +7,6 @@ int main() {
     printf("Enter elements for a 2D array of 2 rows and 3 columns:\n");
     for (i = 0; i < 2; i++) {
         for (j = 0; j < 3; j++) {
-            printf("Element at [%d][%d]: ", i, j);
             scanf("%d", &arr[i][j]);
         }
     }
@@ -21,6 +19,5 @@ int main() {
         }
         printf("\n");
     }
-
     return 0;
 }
